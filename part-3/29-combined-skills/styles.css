@@ -1,1 +1,40 @@
 /* Add your own CSS code below */
+.heart_icon {
+    color: #c85308;
+}
+
+.main-nav__list {
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    max-width: 50em;
+    display: flex;
+    flex-direction: column;
+    line-height: 20px;
+}
+
+@media (min-width:767px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .views {
+        display: flex;
+        align-items: center;
+        gap: 10px
+    }
+    .views a:last-child {
+        margin-left: auto;
+    }
+
+}
+
+@media (min-width:992px) {
+    .hero__title {
+        font-size: xxx-large;
+        font-family: sans-serif;
+    }
+}
